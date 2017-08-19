@@ -4,7 +4,7 @@ Baobab running in a docker container with NoVNC to figure out what is taking up 
 
 ## How to use
 ```
-docker run -it -v /place/to/mount:/data -p 6080:6080 jessedusty/docker-baobab
+docker run -it -v /place/to/mount:/data -p 6080:6080 jessedusty/baobab
 ```
 Then open a web browser and goto
 http://<server-ip/dns>:6080 
