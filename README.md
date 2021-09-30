@@ -9,6 +9,8 @@ docker run -it -v /place/to/mount:/data -p 6080:6080 jessedusty/baobab
 Then open a web browser and goto
 http://<server-ip/dns>:6080 
 
+You can set the resolution/bit-depth using the environment variable $RESOLUTION_BIT_DEPTH. The default ix 1600x900x16.
+
 ## Credits
 
 * [NoVNC](http://kanaka.github.io/noVNC/)

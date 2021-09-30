@@ -1,6 +1,6 @@
 #!/bin/bash
 export DISPLAY=:1
-Xvfb :1 -screen 0 1600x900x16 &
+Xvfb :1 -screen 0 ${RESOLUTION_BIT_DEPTH} &
 sleep 5
 openbox-session&
 baobab &
