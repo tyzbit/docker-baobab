@@ -5,4 +5,4 @@ sleep 5
 openbox-session&
 baobab &
 x11vnc -display :1 -nopw -listen localhost -xkb -ncache 10 -ncache_cr -forever &
-cd /root/noVNC && cp vnc.html index.html &&  ./utils/launch.sh --vnc localhost:5900
+cd /root/noVNC && cp vnc.html index.html && exec /root/noVNC/utils/novnc_proxy
